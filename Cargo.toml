@@ -1,12 +1,5 @@
-[package]
-name = "nemesis"
-version = "0.1.0"
-authors = ["sjbeskur <sam.beskur@gmail.com>"]
-edition = "2018"
-description = "Nemesis utility library"
-license = "MIT"
-
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace]
+members=[
+    "nemesis",
+    "nemesis-lib"
+]
